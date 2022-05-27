@@ -64,9 +64,8 @@ INSERT INTO "students" (
     "dob"
 ) 
 VALUES 
-    (%s,%s,%s,%s,%s,%s)
+    (*,*,*,*,*,*)
 ```
-В результате получаем таблицу студентов, заполненную случайными данными:  
 ![Таблица со студентами](students.png)
 
 ## Хобби
@@ -84,7 +83,7 @@ INSERT INTO "student_hobby" (
     "date_end"
 ) 
 VALUES 
-    (%s,%s,%s,%s)
+    (*,*,*,*)
 ```
 ![Таблица ассоциаций](student_hobby.png)
 
